@@ -1,0 +1,203 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+#page {
+	width: 900px;
+	margin: 0 auto;
+}
+
+#upper-menu {
+	position: relative;
+	margin: 0 auto;
+	top: 50px;
+	margin-bottom: 100px;
+
+	font-family:"Love Ya Like A Sister";
+	font-size: 48px;
+	word-spacing:50px;
+	text-align:center;
+	color:gray;
+}
+#upper-menu ul{
+	margin: 0;
+	padding: 0;
+}
+#upper-menu li {
+	display:inline;
+}
+#upper-menu li a:link {
+	text-decoration:none;
+	color:gray;
+	
+	border-bottom-style:dotted;
+	border-bottom-width:2px;
+	border-bottom-color:white;
+}
+#upper-menu li a:visited {
+	color:gray;
+	
+	border-bottom-style:dotted;
+	border-bottom-width:2px;
+	border-bottom-color:white;
+}
+#upper-menu li a:hover {
+	border-bottom-style:dotted;
+	border-bottom-width:2px;
+	border-bottom-color:gray;
+}
+#upper-menu li a:active { 
+	text-decoration:none;
+	color:gray;
+	
+	border-bottom-style:dotted;
+	border-bottom-width:2px;
+	border-bottom-color:gray;
+}
+
+#post_title {
+	position: relative;
+	margin: 0 auto;
+	margin-left: 20px;
+	text-align: left;
+	font-family:"Life Savers";
+	font-size: 24px;
+	line-height:200%;
+	color: #484848;
+}
+#post_title ul{
+	margin: 0;
+	padding: 0;
+}
+#post_title li{
+	list-style-type: none;
+	display:table;
+	margin-left: 200px;
+}
+#post_title li a:link {
+	text-decoration:none;
+	color: #484848;
+}
+#post_title li a:hover{
+	/*font-weight: bold;*/
+	color: #484848;
+}
+#post_title li a:visited {
+	text-decoration:none;
+	color: #484848;
+}
+#tag {
+	position: relative;
+	font-family:"Rationale";
+	font-size: 16px;
+
+	bottom: 20px;
+	padding: 1px 1px 1px 1px;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	background-color: #DDDDDD;
+
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0.5s, opacity 0.5s linear;
+}
+#post_title li:hover #tag {
+	visibility: visible;
+	font-weight: normal;
+	opacity: 1;
+	transition: opacity 0.5s linear;
+}
+#prompt {
+	visibility: hidden;
+	opacity: 0;
+	/*transition: visibility 0.5s, opacity 0.5s linear;*/
+}
+#post_title li:hover #prompt {
+	visibility: visible;
+	font-weight: normal;
+	opacity: 1;
+}
+#contact {
+	position:relative;
+	margin: auto;
+	margin-top: 20px;
+	text-align: center;
+}
+#contact ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#contact li {
+	display:inline-block;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+#contact a{
+	height: 64px;
+	width: 64px;
+	display: block;
+}
+
+#linkedin {
+	background: url('../img/icon_sprite_64.gif') 0 0px;
+	/*-webkit-transition:-webkit-transform 2s;*/
+}
+#linkedin:hover {
+	background: url('../img/icon_sprite_64.gif') 0 -64px;
+	/*-webkit-transform:rotate(360deg);*/
+}
+
+#twitter {
+	background: url('../img/icon_sprite_64.gif') -64px 0px;
+	/*-webkit-transition:-webkit-transform 2s;*/
+}
+#twitter:hover {
+	background: url('../img/icon_sprite_64.gif') -64px -64px;
+	/*-webkit-transform:rotate(360deg);*/
+}
+
+#github {
+	/*left:361px;*/
+	background: url('../img/icon_sprite_64.gif') -384px 0px;
+	/*-webkit-transition:-webkit-transform 2s;*/
+}
+#github:hover {
+	background: url('../img/icon_sprite_64.gif') -384px -64px;
+	/*-webkit-transform:rotate(360deg);*/
+}
+#footer {
+	position: relative;
+	margin: auto;
+	margin-top:20px;
+	text-align:center;
+}
+
+#corpo_post {
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#texto_post {
+	font-family: "Anaheim";
+	font-size: 18px;
+	font-weight: normal;
+}
+#titulo{
+	font-family:"Life Savers";
+	font-size: 28px;
+	font-weight: normal;
+	color: #484848;
+	text-align: center;
+}
+#data{
+	font-family:"Life Savers";
+	font-size: 16px;
+	font-weight: normal;
+	color: #484848;
+	text-align: right;	
+}

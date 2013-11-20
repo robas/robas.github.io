@@ -1,0 +1,12 @@
+---
+layout: default
+title: Robas
+---
+
+		<div id="post_title">
+			<ul>
+				{% for post in site.posts %}
+					<li><span id="prompt"><i class="fa fa-chevron-right"></i></span> <a href="{{ post.url }}"> {{ post.date | date_to_string }} - {{ post.title }}</a><span id="tag"> {{ post.tags }} </span></li>
+				{% endfor %}
+			</ul>
+		</div>
