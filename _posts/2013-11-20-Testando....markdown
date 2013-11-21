@@ -14,5 +14,5 @@ def print_oioi(name)
   puts "Oi oi, #{name}"
 end
 print_hi('Me')
-#=> prints 'Hi, Me' to STDOUT.
+#=> prints 'Oi oi, Me' to STDOUT.
 {% endhighlight %}
