@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Testando...!"
-date:   2013-11-02 21:42:21
+title:  "Testando..."
+date:   2013-11-20 21:42:21
 categories: jekyll testing
 tags: Jekyll
 ---
