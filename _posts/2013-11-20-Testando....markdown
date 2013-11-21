@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Testando...!"
+date:   2013-11-02 21:42:21
+categories: jekyll testing
+tags: Jekyll
+---
+
+Testando...
+
+
+{% highlight ruby %}
+def print_oioi(name)
+  puts "Oi oi, #{name}"
+end
+print_hi('Me')
+#=> prints 'Hi, Me' to STDOUT.
+{% endhighlight %}
