@@ -6,7 +6,7 @@ categories: jekyll testing
 tags: Jekyll
 ---
 
-A idéia de escrever aqui surgiu pela minha {burrice} mania de esquecer as coisas.
+A idéia de escrever aqui surgiu pela minha <strike>burrice</strike> mania de esquecer as coisas.
 Desde pequeno percebi que quando escrevo o que penso, tentando sumarizar e explicar de diferentes formas acabo memorizando melhor, acho que com todo mundo deve ser assim.
 
 E é isso =)
