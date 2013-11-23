@@ -1,5 +1,4 @@
-name: Your New Jekyll Site
-markdown: redcarpet
 pygments: true
-safe: true
-lsi: false
+auto: true
+markdown: rdiscount
+lsi: true
