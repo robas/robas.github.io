@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Testando..."
+date:   2013-11-20 21:42:21
+categories: jekyll testing
+tags: Jekyll
+---
+
+A idéia de escrever aqui surgiu pela minha {burrice} mania de esquecer as coisas.
+Desde pequeno percebi que quando escrevo o que penso, tentando sumarizar e explicar de diferentes formas acabo memorizando melhor, acho que com todo mundo deve ser assim.
+
+E é isso =)
+
+Existem diversos errinhos aqui, com o tempo vou corrigindo e melhorando... ou não.

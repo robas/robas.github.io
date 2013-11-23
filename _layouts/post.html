@@ -3,9 +3,10 @@ layout: default
 ---
 <div id="corpo_post">
 	<div id="titulo">{{ page.title }}</div>
-	<div id="data">{{ page.date | date_to_string }}</div>
 
 	<div id="texto_post">
 	{{ content }}
 	</div>
+
+	<div id="data">{{ page.date | date_to_string }}</div>
 </div>

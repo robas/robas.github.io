@@ -181,18 +181,20 @@ body {
 	margin-right: 100px;
 	margin-top: 20px;
 	margin-bottom: 50px;
-}
-#texto_post {
-	font-family: "Anaheim";
-	font-size: 18px;
-	font-weight: normal;
+
 }
 #titulo{
 	font-family:"Life Savers";
 	font-size: 28px;
 	font-weight: bold;
 	color: #484848;
-	text-align: center;
+	text-align: left;
+}
+#texto_post {
+	font-family: "Anaheim";
+	font-size: 18px;
+	font-weight: normal;
+	text-align: left;
 }
 #data{
 	font-family:"Life Savers";
@@ -200,4 +202,10 @@ body {
 	font-weight: normal;
 	color: #484848;
 	text-align: right;	
+}
+#texto_projects {
+	font-family: "Anaheim";
+	font-size: 18px;
+	font-weight: normal;
+	text-align: center;
 }
