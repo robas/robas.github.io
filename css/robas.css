@@ -183,21 +183,21 @@ body {
 	margin-bottom: 50px;
 
 }
-.h1{
+h1{
 	font-family:"Life Savers";
 	font-size: 28px;
 	font-weight: bold;
 	color: #484848;
 	text-align: left;
 }
-.h2{
+h2{
 	font-family:"Life Savers";
 	font-size: 24px;
 	font-weight: bold;
 	color: #484848;
 	text-align: left;
 }
-.h3{
+h3{
 	font-family:"Life Savers";
 	font-size: 20px;
 	font-weight: bold;
