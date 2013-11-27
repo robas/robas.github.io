@@ -17,14 +17,14 @@ Foi aí que percebi que o agente de monitoração não permite, até onde eu sai
 Adicionei 2 linhas ao código do agente Pandora para plataformas Linux, fazendo-o reconhecer a definição de variáveis através do .conf.
 No arquivo pandora_agent, na função read_config, adicionei as seguintes linhas:
 
-{% highlight html %}
+{% highlight perl %}
 } elsif ($line =~ /^\s*env_var\s+(\w+)\s*=\s*(.+)$/) {
  $ENV{$1} = $2;
 {% endhighlight %}
 
 Ficando, portanto, assim:
 
-{% highlight html %}
+{% highlight perl %}
 } elsif ($line =~ /^\s*file_collection\s+(.+)$/) {
  my $collection = $1;
 
@@ -50,7 +50,7 @@ Ficando, portanto, assim:
 
 Desta forma é possível definir variáveis com a seguinte sintaxe no .conf:
 
-{% highlight html %}
+{% highlight bash %}
 env_var minhavar1 = “lalala”
 
 env_var variavel2 = “lelele”
