@@ -208,7 +208,8 @@ h3{
 	font-family: "Anaheim";
 	font-size: 18px;
 	font-weight: normal;
-	text-align: left;
+	text-align: justify;
+	color: #666;
 }
 pre{
 	
