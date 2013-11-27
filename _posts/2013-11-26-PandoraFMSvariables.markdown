@@ -15,7 +15,7 @@ O intuito é fazer um módulo de monitoração genérico o bastante para ser apl
 Foi aí que percebi que o agente de monitoração não permite, até onde eu saiba, a definição de variáveis particulares para cada agente.
 
 Adicionei 2 linhas ao código do agente Pandora para plataformas Linux, fazendo-o reconhecer a definição de variáveis através do .conf.
-No arquivo pandora_agent, na função read_config, adicionei as seguintes linhas:
+No arquivo pandora\_agent, na função read\_config, adicionei as seguintes linhas:
 
 {% highlight perl %}
 } elsif ($line =~ /^\s*env_var\s+(\w+)\s*=\s*(.+)$/) {
