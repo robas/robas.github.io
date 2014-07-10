@@ -1,0 +1,56 @@
+---
+layout: post
+title:  "Debian: IP Fixo"
+date:   2014-07-10 15:52:00
+categories: serverdeploy
+tags: configuração básica
+---
+
+Configurar IP fixo
+==================
+
+Sempre que monto um servidor novo correndo esqueço de colocar IP fixo no bixinho, provavelmente porque ele logo pega um IP por dhcp e tudo tá funcionando tão bem que só depois que reinicio e ele pega outro IP me lembro disso.
+
+Uma vez instalado o Debian, ele sobe automaticamente o dhcp na interface de rede, recebendo um IP qualquer na rede, cabe a nós especificarmos um IP estático para ele.
+
+Precisamos editar o arquivo /etc/network/interfaces.
+Provavelmente ele conterá:
+
+{% highlight bash %}
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+allow-hotplug eth0
+iface eth0 inet dhcp
+{% endhighlight %}
+
+A primeira interface é a de loopback e a segunda é a eth0, que está configurada como:
+
+* allow-hotplug:
+* inet dhcp: 
+
+Vamos alterar a configuração da interface eth0 da seguinte forma (considerando que estamos na rede 192.168.0.0):
+
+{% highlight bash %}
+# The primary network interface
+auto eth0
+iface eth0 inet static
+
+address 192.168.0.X
+gateway 192.168.0.1
+netmask 255.255.255.0
+network 192.168.0.0
+broadcast 192.168.0.255
+{% endhighlight %}
+
+Para fazer o SO reiniciar os módulos de rede e ler novamente os arquivos de configuração:
+/etc/init.d/networking restart
+
+Obs: Se estiver conectado remotamente e trocar o IP da máquina, logicamente será desconectado.
+
+Pronto :-)
