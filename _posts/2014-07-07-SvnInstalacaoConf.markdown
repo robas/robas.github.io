@@ -3,7 +3,7 @@ layout: post
 title:  "Subversion: Instalação e Configuração Básica"
 date:   2014-07-07 20:09:15
 categories: serverdeploy
-tags: controle de versão, versionamento, svn
+tags: versionamento, svn
 ---
 
 Subversion

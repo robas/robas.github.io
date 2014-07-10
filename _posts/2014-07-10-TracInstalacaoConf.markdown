@@ -3,7 +3,7 @@ layout: post
 title:  "Trac: Instalação e Configuração Básica"
 date:   2014-07-10 16:39:55
 categories: serverdeploy
-tags: bug tracking tool, plataforma de gerenciamento
+tags: bug tracking tool
 ---
 
 Trac
